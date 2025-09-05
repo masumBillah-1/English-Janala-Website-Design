@@ -7,6 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
     
 
 </head>
@@ -16,18 +18,63 @@
 
         <nav>
 
-            <div>
+            <div class="bg-[#edf6ff] flex justify-between items-center px-2 sm:px-5 md:px-20 py-5"">
 
-                <div>
-                    
+                <div class="flex justify-center items-center">
+                    <h2 class="poppins-bold">English</h2>
+                    <img src="assets/logo.png" alt="" class="w-8">
+                    <h2 class="tiro-bangla-regular">জানালা</h2>
 
                 </div>
+
+                <div class="flex items-center gap-2 md:gap-4">
+                    <button class="btn btn-outline btn-primary"><i class="fa-solid fa-circle-question"></i>FAQ</button>
+                    <button class="btn btn-outline btn-primary"><i class="fa-brands fa-leanpub"></i>Learn</button>
+                    <button class="btn btn-outline btn-primary"><i class="fa-solid fa-arrow-right-from-bracket"></i>logout</button>
+                </div>
+
 
 
             </div>
 
 
         </nav>
+
+
+            <!-- banner-area Start  -->
+        <section>
+
+            
+        <div class="banner-area flex flex-col-reverse md:flex-row w-[1100px] max-w-full mx-auto items-center justify-between gap-10 p-4">
+
+            <div class="">
+                <h3 class="text-[40px] poppins-bold "><span class="text-[#37aade]">English </span>is Easy!!</h3>
+                <p class="w-full sm:w-[400px] md:w-[500px] tiro-bangla-regular my-3">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
+                <div class="w-[400px] " >
+                    <form class="flex flex-col gap-4">
+                         <input type="text" class="input" placeholder="Enter your name" required/>
+                         <input type="password" class="input" placeholder="**********" required/>
+                         <button class="btn btn-primary w-[150px]">Get Started</button>
+                    </form>
+                </div>
+
+            </div>
+            <div>
+                <img src="assets/hero-student.png" alt="" class="w-[500px]">
+
+                
+            </div>
+
+
+
+        </div>
+
+
+
+
+        </section>
+
+
 
 
 
